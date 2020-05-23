@@ -50,6 +50,12 @@ git clone https://github.com/co1ncidence/dotfiles.git
 
 ## Rofi menus
 
+Here are the rofi menus I use, all credit goes to [adi1090x](https://github.com/adi1090x/rofi) for his amazing work creating these
+
+|Powermenu|Apps|Network|Scrot|
+|--|--|--|--|
+|![.](scrots/scrot-powermenu.png)|![.](scrots/scrot-apps.png)|![.](scrots/scrot-network.png)|![.](scrots/scrot-scrot.png)|
+
 ## Sxhkd setup
 
 ## Custom Firefox Build
