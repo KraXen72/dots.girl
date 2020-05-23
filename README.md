@@ -70,3 +70,12 @@ My custom Firefox build made using the extensions [HNTP](https://addons.mozilla.
 
 ![,](scrots/firefox-scrot.png)
 
+## Installation
+
+### UserChrome.css
+
+My UserChrome.css file can be found in the repo, simply place in the '/chrome' directory in your Firefox directory (found 
+
+### Humble New Tab Page Setup
+
+
