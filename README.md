@@ -22,7 +22,7 @@ Fonts required:
 
 + **CozetteVector** [here](https://awesomeopensource.com/project/slavfox/Cozette)
 + **Font Awesome 5 Free Desktop** [here](https://fontawesome.com/download)
-+ **MaterialIcons** [here](https://github.com/google/material-design-icons/tree/master/iconfont)
++ **Material Icons** [here](https://github.com/google/material-design-icons/tree/master/iconfont)
 + **Hurmit Nerd Font Mono** [here](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hermit)
 + **Comfortaa** [here](https://www.deviantart.com/aajohan/art/Comfortaa-font-105395949)
 
