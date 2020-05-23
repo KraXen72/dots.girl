@@ -9,10 +9,12 @@ Programs shown: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [cava](https://gi
 <details>
 <summary>Quick Links</summary>
 
-- [Installation (General)](https://github.com/co1ncidence/rofi#Intstallation-(General))
-- [Setup and Configuration (Polybar)](https://github.com/co1ncidence/rofi#Setup-and-Configuration-(Polybar))
+- [Installation (General)](https://github.com/co1ncidence/dotfiles#Intstallation-(General))
+- [Setup and Configuration (Polybar)](https://github.com/co1ncidence/dotfiles#Setup-and-Configuration-(Polybar))
 
-# Installation (General)
+</details>
 
-# Setup and configuration (Polybar)
+### Installation (General)
+
+### Setup and configuration (Polybar)
 
