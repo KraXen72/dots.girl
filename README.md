@@ -74,7 +74,7 @@ My custom Firefox build made using the extensions [HNTP](https://addons.mozilla.
 
 ### UserChrome.css
 
-My UserChrome.css file can be found in the repo, simply place in the '/chrome' directory in your Firefox directory (found 
+My UserChrome.css file can be found in the repo, simply place in the `/chrome` directory in your Firefox directory (found by going to about:support)  
 
 ### Humble New Tab Page Setup
 
