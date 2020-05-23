@@ -40,11 +40,13 @@ My current bspwm setup is as shown:
 
 ### Installing all configs
 
-first, clone (or download as ZIP) this repository
+clone (or download as ZIP) this repository
 
 ```bash
 git clone https://github.com/co1ncidence/dotfiles.git
 ```
+
+from here you can chose which of my configs you want to use and replace your config files with mine (making sure that you back them up first as well), for the configs that require more in-depth installation procedures, I have tutorials below so see if what you want is down there. And my apologies if it isn't since this repo is still a WIP (as of now)
 
 ## Polybar Configuration
 
