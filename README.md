@@ -66,5 +66,7 @@ The brightness menu is a bit finnicky since I am using Xrandr to change my brigh
 
 ## Custom Firefox Build
 
+My custom Firefox build made using the extensions [HNTP](https://addons.mozilla.org/en-US/firefox/addon/humble-new-tab/), [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/), and a [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) theme
+
 ![,](scrots/firefox-scrot.png)
 
