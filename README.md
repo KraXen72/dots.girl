@@ -19,7 +19,7 @@ My current bspwm setup is as shown:
 
 ### Dependencies
 
-Fonts required:
+####Fonts required:
 
 + **CozetteVector** [here](https://awesomeopensource.com/project/slavfox/Cozette)
 + **Font Awesome 5 Free Desktop** [here](https://fontawesome.com/download)
@@ -27,7 +27,7 @@ Fonts required:
 + **Hurmit Nerd Font Mono** [here](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hermit)
 + **Comfortaa** [here](https://www.deviantart.com/aajohan/art/Comfortaa-font-105395949)
 
-Programs required
+####Programs required (and of course their dependencies as well)
 
 + **Polybar**: because common sense
 + **Ncmpcpp**: as a music player (cmus is an alternative is mpd is finnicky for you)
@@ -35,6 +35,7 @@ Programs required
 + **Cava**: audio visualizer 
 + **Firefox nightly (latest build)**: if you want to use my custom firefox build
 + **Rofi**: for app launching and various operation menus (for more see [here](https://github.com/co1ncidence/dotfiles#rofi-menus))
++ **All of the dependencies mentioned [here](https://github.com/adi1090x/rofi#dependencies)
 
 
 ### Installing all configs
