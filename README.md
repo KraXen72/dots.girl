@@ -19,9 +19,10 @@ Programs shown: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [cava](https://gi
 #### Installing all configs
 
 first, clone (or download as ZIP) this repository
-'''bash
-git clone 
-'''
+
+```bash
+git clone https://github.com/co1ncidence/dotfiles.git
+```
 
 ### Polybar Configuration
 
