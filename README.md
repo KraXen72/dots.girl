@@ -1,2 +1,5 @@
-# dotfiles
-my personal dotfiles repo, will keep this one updated (unlike the last one kekw)
+# Overview
+
+My current bspwm setup is as shown:
+
+![.](scrots/desktop-1-scrot.png)
