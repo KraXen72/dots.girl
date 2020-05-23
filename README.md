@@ -47,5 +47,5 @@ git clone https://github.com/co1ncidence/dotfiles.git
 
 ## Polybar Configuration
 
-## Cistom Firefox Build
+## Custom Firefox Build
 
