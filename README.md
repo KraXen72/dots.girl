@@ -74,13 +74,10 @@ The brightness menu is a bit finnicky since I am using Xrandr to change my brigh
 
 ### UserChrome.css
 
-My UserChrome.css file can be found in the repo, simply place in the `/chrome` directory in your Firefox directory (found by going to about:support)
-
-command (only works if you are in the directory that my userchrome file is in):
-```bash
-mv userchrome.css ~/.mozilla/firefox-trunk/8dkldeew.default-nightly/chrome/ 
-```
+My UserChrome.css file can be found in the repo, simply place in the `/chrome` directory in your Firefox profile directory (found by going to about:support)
 
 ### Humble New Tab Page Setup
+
+After installing the extension, click the options icon, go to the import/export section, and copy the contents of `firefox/hntp/hntp.css` into the import area, further configuration (i.e. fonts and such) can be done manually through the settings GUI
 
 
