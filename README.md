@@ -81,6 +81,14 @@ if all goes well, your bar should end up looking something like this:
 
 ![.](scrots/scrot-polybar.png)
 
+#### Here are some (3 lulw) cool features of my polybar:
+
+left-clicking the power button on the top left will open up my powermenu (more on that down below)
+
+scrolling down and up on the volume logo will increase and decrease the volume respectively
+
+the tray is separate from other modules so it doesnt take up unnecessary space or become annoying after 3 entries
+
 ## Rofi menus
 
 Here are the rofi menus I use, all credit goes to [adi1090x](https://github.com/adi1090x/rofi) for his amazing work creating these
