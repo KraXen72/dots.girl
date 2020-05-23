@@ -47,3 +47,5 @@ git clone https://github.com/co1ncidence/dotfiles.git
 
 ## Custom Firefox Build
 
+![.](scrots/firefox-scrot.png)
+
