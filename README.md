@@ -11,6 +11,7 @@ Programs shown: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [cava](https://gi
 
 - [Installation](https://github.com/co1ncidence/dotfiles#Intstallation)
 - [Polybar Configuration](https://github.com/co1ncidence/dotfiles#Polybar-Configuration)
+- [Custom Firefox Build](https://github.com/co1ncidence/dotfiles#Custom-Firefox-Build)
 
 </details>
 
@@ -26,6 +27,15 @@ Fonts required:
 + **Hurmit Nerd Font Mono** [here](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hermit)
 + **Comfortaa** [here](https://www.deviantart.com/aajohan/art/Comfortaa-font-105395949)
 
+Programs required
+
++ **Polybar**: because common sense
++ **ncmpcpp**: as a music player (cmus is an alternative is mpd is finnicky for you)
++ **bspwm**: window manager
++ **cava**: audio visualizer 
++ **firefox nightly (latest build)**: if you want to use my custom firefox build
++ **
+
 
 ### Installing all configs
 
@@ -36,4 +46,6 @@ git clone https://github.com/co1ncidence/dotfiles.git
 ```
 
 ## Polybar Configuration
+
+## Cistom Firefox Build
 
