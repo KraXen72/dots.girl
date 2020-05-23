@@ -35,5 +35,5 @@ first, clone (or download as ZIP) this repository
 git clone https://github.com/co1ncidence/dotfiles.git
 ```
 
-### Polybar Configuration
+## Polybar Configuration
 
