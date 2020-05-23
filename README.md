@@ -74,7 +74,12 @@ The brightness menu is a bit finnicky since I am using Xrandr to change my brigh
 
 ### UserChrome.css
 
-My UserChrome.css file can be found in the repo, simply place in the `/chrome` directory in your Firefox directory (found by going to about:support)  
+My UserChrome.css file can be found in the repo, simply place in the `/chrome` directory in your Firefox directory (found by going to about:support)
+
+command (only works if you are in the directory that my userchrome file is in):
+```bash
+mv userchrome.css ~/.mozilla/firefox-trunk/8dkldeew.default-nightly/chrome/ 
+```
 
 ### Humble New Tab Page Setup
 
