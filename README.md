@@ -56,6 +56,10 @@ Here are the rofi menus I use, all credit goes to [adi1090x](https://github.com/
 |--|--|--|--|
 |![.](scrots/scrot-powermenu.png)|![.](scrots/scrot-apps.png)|![.](scrots/scrot-network.png)|![.](scrots/scrot-scrot.png)|
 
+|Quicklinks|Brightness|MPD|Frequent Apps|
+|--|--|--|--|
+|![img](scrots/scrot-quicklinks.png)|![img](scrots/scrot-brightness.png)|![img](scrots/scrot-mpd.png)|![img](scrots/scrot-frequentapps.png)|
+
 ## Sxhkd setup
 
 ## Custom Firefox Build
