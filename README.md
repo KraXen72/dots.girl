@@ -11,7 +11,7 @@ Programs shown: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [cava](https://gi
 
 - [Installation](https://github.com/co1ncidence/dotfiles#installation)
 - [Polybar Configuration](https://github.com/co1ncidence/dotfiles#polybar-configuration)
-- [Custom Firefox Build](https://github.com/co1ncidence/dotfiles#Custom-Firefox-Build)
+- [Custom Firefox Build](https://github.com/co1ncidence/dotfiles#custom-firefox-build)
 
 </details>
 
