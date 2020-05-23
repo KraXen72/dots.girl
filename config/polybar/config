@@ -1,0 +1,475 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[colors]
+;background = ${xrdb:color0:#222}
+background = #0d0c12
+background-alt = #0d0c12	
+;foreground = ${xrdb:color7:#222}
+foreground = #9b9b99
+foreground-alt = #9b9b99
+primary = #8be9fd
+secondary = #e60053
+alert = #bd2c40
+
+[bar/main]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 12%
+height = 33
+offset-x = 87.37%
+offset-y = 1%
+radius = 0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #8be9fd	
+
+border-size = 1
+border-color = #5D748D
+
+padding-left = 0
+padding-right = 3
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0=CozetteVector:size=9;3
+font-1=Font Awesome 5 Free Regular:size=12;3
+font-2=Font Awesome 5 Free Solid:size=12;3
+font-3=IPAGothic:size=12:antialias=true;3
+font-4=MaterialIcons Regular:size=12;3
+font-5=Font Awesome 5 Brands,Font Awesome 5 Brands Regular:style=Regular:size=20;3
+font-6=FontAwesome5Free:style=Regular:pixelsize=12:antialias=true;3
+font-7=FontAwesome5Free:style=Solid:pixelsize=12:antialias=true;3
+
+modules-left = pulseaudio 
+modules-center = 
+modules-right = date
+
+tray-position = none
+tray-padding = 4
+tray-detached = false
+;tray-background = #0063ff
+
+wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = false
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+bottom = false
+
+[bar/info]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 25%
+height = 33
+offset-x = 22%
+offset-y = 1%
+radius = 0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 0
+line-color = #8be9fd	
+
+border-size = 1
+border-color = #566065
+
+padding-left = 0
+padding-right = 3
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0=CozetteVector:size=9;3
+font-1=Font Awesome 5 Free Regular:size=9;3
+font-2=Font Awesome 5 Free Solid:size=9;3
+font-3=IPAGothic:size=12:antialias=true;3
+font-4=MaterialIcons Regular:size=9;3
+font-5=Font Awesome 5 Brands,Font Awesome 5 Brands Regular:style=Regular:size=9;3
+
+modules-left = sysinfo
+modules-center = 
+modules-right = memory cpu temperature wlan filesystem
+
+tray-position = 0
+tray-padding = 0
+;tray-background = #0063ff
+
+wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = false
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+bottom = false
+
+[bar/bspwm]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 20.5%
+height = 33
+offset-x = 0.6%
+offset-y = 1%
+radius = 0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 0
+line-color = #8be9fd	
+
+border-size = 1
+border-color = #8D7168
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 0
+module-margin-right = 1
+
+font-0=SF Mono:size=9;3
+font-1=Font Awesome 5 Free Regular:size=9;3
+font-2=Font Awesome 5 Free Solid:size=9;3
+font-3=IPAGothic:size=12:antialias=true;3
+font-4=MaterialIcons Regular:size=9;3
+font-5=Font Awesome 5 Brands,Font Awesome 5 Brands Regular:style=Regular:size=9;3
+
+modules-left = powermenu bspwm
+modules-center = 
+modules-right = 
+
+tray-position = 0
+tray-padding = 0
+;tray-background = #0063ff
+
+wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = false
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+bottom = false
+
+[bar/mpd]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 15%
+height = 33
+offset-x = 47.8%
+offset-y = 1%
+radius = 0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 0
+line-color = #8be9fd	
+
+border-size = 1
+border-color = #315562
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 0
+module-margin-right = 1
+
+font-0=CozetteVector:size=9;3
+font-1=Font Awesome 5 Free Regular:size=9;3
+font-2=Font Awesome 5 Free Solid:size=9;3
+font-3=IPAGothic:size=12:antialias=true;3
+font-4=MaterialIcons Regular:size=9;3
+font-5=Font Awesome 5 Brands,Font Awesome 5 Brands Regular:style=Regular:size=9;3
+
+modules-left = playing
+modules-center = mpd
+modules-right = 
+
+tray-position = 0
+tray-padding = 0
+;tray-background = #0063ff
+
+wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = false
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+bottom = false
+
+[bar/tray]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 8%
+height = 33
+offset-x = 78.6%
+offset-y = 1%
+radius = 0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #8be9fd	
+
+border-size = 1
+border-color = #4B4D56
+
+padding-left = 0
+padding-right = 3
+
+tray-position = right 
+tray-padding = 2
+
+module-margin-left = 3
+module-margin-right = 0
+
+font-0=CozetteVector:size=9;3
+font-1=Font Awesome 5 Free Regular:size=9;3
+font-2=Font Awesome 5 Free Solid:size=9;3
+font-3=IPAGothic:size=12:antialias=true;3
+font-4=MaterialIcons Regular:size=9;3
+font-5=Font Awesome 5 Brands,Font Awesome 5 Brands Regular:style=Regular:size=9;3
+
+modules-left = tray
+modules-center = 
+modules-right = 
+
+override-redirect = false
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted = " %{F#A2C8D9}%mountpoint%%{F-}: %percentage_used%% "
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground}
+format-mounted-underline = #32555F
+
+[module/bspwm]
+type = internal/bspwm
+; ws-icon-[0-9]+ = <label>;<icon>
+; Note that the <label> needs to correspond with the bspwm workspace name
+; Neither <label> nor <icon> can contain a semicolon (;)
+ws-icon-0 = 
+ws-icon-1 = 
+ws-icon-2 = 
+ws-icon-3 = 
+ws-icon-4 = 
+ws-icon-5 = 
+ws-icon-6 = 
+ws-icon-default =  
+label-focused-padding = 2
+label-occupied-padding = 2
+label-urgent-padding = 2
+label-empty-padding = 2
+label-focused-foreground = #705a53
+
+; Separator in between workspaces
+;label-separator = |
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 40
+label-song-ellipsis = true
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #566065
+label ="%percentage:2%% "
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #315562
+label = "%percentage_used%% "
+
+[module/wlan]
+type = internal/network
+interface = wlp39s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #5D748D
+label-connected = "%essid% "
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+
+[module/date]
+type = internal/date
+interval = 1
+
+date = %a, %d %B
+date-alt = %a, %d %B
+
+time =%I:%M %
+time-alt =%H:%M %
+
+format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+;format-underline = #5D748D 
+
+label = "%date% | %time%"
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = "<label-volume> <bar-volume>"
+label-volume = "   %percentage%%   "
+label-volume-foreground = ${colors.background}
+label-volume-background = #5D748D
+
+label-muted = " muted "
+label-muted-background = #5D748D
+label-muted-foreground = ${colors.background}
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #1E9480
+bar-volume-foreground-1 = #1E9480
+bar-volume-foreground-2 = #1E9480
+bar-volume-foreground-3 = #1E9480
+bar-volume-foreground-4 = #1E9480
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = 
+bar-volume-indicator-font = 2
+bar-volume-fill = 
+bar-volume-fill-font = 2
+bar-volume-empty = 
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-underline = #32555F
+format-warn = <ramp> <label-warn>
+format-warn-underline = ${self.format-underline}
+
+label = "%temperature-c% "
+label-warn = "%temperature-c% "
+label-warn-foreground = ${colors.secondary}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.foreground-alt}
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+pseudo-transparency = false
+
+[global/wm]
+margin-top = 5
+margin-bottom = 1
+
+[module/sysinfo]
+type = custom/text
+content = "  system info   "
+content-foreground = ${colors.background}
+content-background = #566065
+
+[module/powermenu]
+type = custom/script
+exec = echo " "
+click-left = cd ~/.config/rofi/scripts && ./menu_powermenu.sh
+format-background = #8D7168
+format-foreground = ${colors.background}
+format-padding = 2
+
+[module/playing]
+type = custom/text
+content = "  playing   "
+content-foreground = ${colors.background}
+content-background = #315562
+
+[module/tray]
+type = custom/text
+content = "  tray   "
+content-foreground = ${colors.background}
+content-background = #4B4D56
+
+; vim:ft=dosini
