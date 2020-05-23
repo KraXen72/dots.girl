@@ -10,7 +10,7 @@ Programs shown: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [cava](https://gi
 <summary>Repo Navigation</summary>
 
 - [Installation](https://github.com/co1ncidence/dotfiles#installation)
-- [Polybar Configuration](https://github.com/co1ncidence/dotfiles#Polybar-Configuration)
+- [Polybar Configuration](https://github.com/co1ncidence/dotfiles#polybar-configuration)
 - [Custom Firefox Build](https://github.com/co1ncidence/dotfiles#Custom-Firefox-Build)
 
 </details>
