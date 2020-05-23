@@ -16,5 +16,12 @@ Programs shown: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [cava](https://gi
 
 ### Installation
 
+#### Installing all configs
+
+first, clone (or download as ZIP) this repository
+'''bash
+git clone 
+'''
+
 ### Polybar Configuration
 
