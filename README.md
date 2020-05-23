@@ -80,4 +80,9 @@ My UserChrome.css file can be found in the repo, simply place in the `/chrome` d
 
 After installing the extension, click the options icon, go to the import/export section, and copy the contents of `firefox/hntp/hntp.css` into the import area, further configuration (i.e. fonts and such) can be done manually through the settings GUI
 
+### Tree Style Tab Setup
+
+After installing the extension, press ctrl + shift + a to go to the extensions management page, select Tree Style Tabs -> Preferences, then scroll down all the way, select "Import" and choose the `firefox/tree-style-tab/treestyletab-config.json` file
+
+
 
