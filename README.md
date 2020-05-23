@@ -34,7 +34,7 @@ Programs required
 + **Bspwm**: window manager
 + **Cava**: audio visualizer 
 + **Firefox nightly (latest build)**: if you want to use my custom firefox build
-+ **Rofi**: for app launching and various operation menus (for more see [here](https://github.com/co1ncidence/dotfiles#rofi-menus)
++ **Rofi**: for app launching and various operation menus (for more see [here](https://github.com/co1ncidence/dotfiles#rofi-menus))
 
 
 ### Installing all configs
