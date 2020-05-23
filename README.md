@@ -9,12 +9,12 @@ Programs shown: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [cava](https://gi
 <details>
 <summary>Quick Links</summary>
 
-- [Installation (General)](https://github.com/co1ncidence/dotfiles#Intstallation-(General))
-- [Setup and Configuration (Polybar)](https://github.com/co1ncidence/dotfiles#Setup-and-Configuration-(Polybar))
+- [Installation](https://github.com/co1ncidence/dotfiles#Intstallation)
+- [Polybar Configuration](https://github.com/co1ncidence/dotfiles#Polybar-Configuration)
 
 </details>
 
-### Installation (General)
+### Installation
 
-### Setup and configuration (Polybar)
+### Polybar Configuration
 
