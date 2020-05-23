@@ -9,6 +9,8 @@ My current bspwm setup is as shown:
 
 - [Installation](https://github.com/co1ncidence/dotfiles#installation)
 - [Polybar Configuration](https://github.com/co1ncidence/dotfiles#polybar-configuration)
+- [Rofi Menus](https://github.com/co1ncidence/dotfiles#rofi-menus)
+- [Sxhkd Setup](https://github.com/co1ncidence/dotfiles#sxhkd-setup)
 - [Custom Firefox Build](https://github.com/co1ncidence/dotfiles#custom-firefox-build)
 
 </details>
@@ -44,6 +46,10 @@ git clone https://github.com/co1ncidence/dotfiles.git
 ```
 
 ## Polybar Configuration
+
+## Rofi menus
+
+## Sxhkd setup
 
 ## Custom Firefox Build
 
