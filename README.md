@@ -50,6 +50,37 @@ from here you can chose which of my configs you want to use and replace your con
 
 ## Polybar Configuration
 
+### Installing my Polybar config
+
+first, back up your current polybar config:
+```bash
+cd ~/.config/polybar && cp config config-backup
+```
+now finally
+```bash
+rm config && rm launch.sh
+```
+then, cd to my polybar config
+first, cd to this directory (this will only work if you cloned my repo into your `/home` directory:
+```bash
+cd dotfiles/config/polybar
+```
+next, copy the launch.sh file into your polybar config folder:
+```bash
+cp launch.sh ~/.config/polybar/
+```
+and do the same with the actual config file
+```bash
+cp config ~/.config/polybar/
+```
+finally, lets see if the bar will launch properly (this will only work if you have polybar, its dependencies and all required fonts installed on to your system):
+```bash
+cd ~/.config/polybar && launch.sh
+```
+if all goes well, your bar should end up looking something like this:
+
+![.](scrots/scrot-polybar.png)
+
 ## Rofi menus
 
 Here are the rofi menus I use, all credit goes to [adi1090x](https://github.com/adi1090x/rofi) for his amazing work creating these
