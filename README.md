@@ -84,5 +84,9 @@ After installing the extension, click the options icon, go to the import/export 
 
 After installing the extension, press ctrl + shift + a to go to the extensions management page, select Tree Style Tabs -> Preferences, then scroll down all the way, select "Import" and choose the `firefox/tree-style-tab/treestyletab-config.json` file
 
+### Firefox Color Setup 
+
+My Firefox theme can be found [here](https://addons.mozilla.org/en-US/firefox/addon/find-my-way/), if the link doesn't seem to be working come back in a few hours since it might be still undergoing the code review process
+
 
 
