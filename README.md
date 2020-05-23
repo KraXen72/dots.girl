@@ -10,7 +10,6 @@ My current bspwm setup is as shown:
 - [Installation](https://github.com/co1ncidence/dotfiles#installation)
 - [Polybar Configuration](https://github.com/co1ncidence/dotfiles#polybar-configuration)
 - [Rofi Menus](https://github.com/co1ncidence/dotfiles#rofi-menus)
-- [Sxhkd Setup](https://github.com/co1ncidence/dotfiles#sxhkd-setup)
 - [Custom Firefox Build](https://github.com/co1ncidence/dotfiles#custom-firefox-build)
 
 </details>
@@ -83,11 +82,9 @@ if all goes well, your bar should end up looking something like this:
 
 #### Here are some (3 lulw) cool features of my polybar:
 
-left-clicking the power button on the top left will open up my powermenu (more on that down below)
-
-scrolling down and up on the volume logo will increase and decrease the volume respectively
-
-the tray is separate from other modules so it doesnt take up unnecessary space or become annoying after 3 entries
++ left-clicking the power button on the top left will open up my powermenu (more on that down below)
++ scrolling down and up on the volume logo will increase and decrease the volume respectively
++ the tray is separate from other modules so it doesnt take up unnecessary space or become annoying after 3 entries
 
 ## Rofi menus
 
@@ -102,8 +99,6 @@ Here are the rofi menus I use, all credit goes to [adi1090x](https://github.com/
 |![img](scrots/scrot-quicklinks.png)|![img](scrots/scrot-brightness.png)|![img](scrots/scrot-mpd.png)|![img](scrots/scrot-frequentapps.png)|
 
 The brightness menu is a bit finnicky since I am using Xrandr to change my brightness (instead of the default xbacklight) and as of yet I dont know a way to display current brightness but the brightness up and down functions do work
-
-## Sxhkd setup
 
 ## Custom Firefox Build
 
